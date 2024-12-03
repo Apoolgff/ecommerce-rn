@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "name": "Cyberpunk 2077",
+        "description": "Open-world RPG set in a dystopian future.",
+        "price": 59.99,
+        "rating": 4.5,
+        "stock": 20,
+        "category": "RPG",
+        "thumbnail": "https://example.com/cyberpunk-thumb.jpg",
+        "images": [
+            "https://example.com/cyberpunk1.jpg",
+            "https://example.com/cyberpunk2.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "The Witcher 3: Wild Hunt",
+        "description": "Fantasy RPG with rich storytelling.",
+        "price": 39.99,
+        "rating": 5,
+        "stock": 15,
+        "category": "RPG",
+        "thumbnail": "https://example.com/witcher3-thumb.jpg",
+        "images": [
+            "https://example.com/witcher3-1.jpg",
+            "https://example.com/witcher3-2.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Minecraft",
+        "description": "Sandbox game with endless creativity.",
+        "price": 29.99,
+        "rating": 4.8,
+        "stock": 50,
+        "category": "Sandbox",
+        "thumbnail": "https://example.com/minecraft-thumb.jpg",
+        "images": [
+            "https://example.com/minecraft1.jpg",
+            "https://example.com/minecraft2.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Grand Theft Auto V",
+        "description": "Open-world action-adventure game.",
+        "price": 49.99,
+        "rating": 4.7,
+        "stock": 25,
+        "category": "Action",
+        "thumbnail": "https://example.com/gta5-thumb.jpg",
+        "images": [
+            "https://example.com/gta5-1.jpg",
+            "https://example.com/gta5-2.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Red Dead Redemption 2",
+        "description": "Epic Western adventure with stunning visuals.",
+        "price": 59.99,
+        "rating": 4.9,
+        "stock": 18,
+        "category": "Adventure",
+        "thumbnail": "https://example.com/rdr2-thumb.jpg",
+        "images": [
+            "https://example.com/rdr2-1.jpg",
+            "https://example.com/rdr2-2.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Fortnite",
+        "description": "Battle royale game with vibrant visuals.",
+        "price": 0.00,
+        "rating": 4.6,
+        "stock": 100,
+        "category": "Battle Royale",
+        "thumbnail": "https://example.com/fortnite-thumb.jpg",
+        "images": [
+            "https://example.com/fortnite1.jpg",
+            "https://example.com/fortnite2.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Call of Duty: Modern Warfare II",
+        "description": "Realistic military FPS game.",
+        "price": 69.99,
+        "rating": 4.4,
+        "stock": 22,
+        "category": "FPS",
+        "thumbnail": "https://example.com/codmw2-thumb.jpg",
+        "images": [
+            "https://example.com/codmw2-1.jpg",
+            "https://example.com/codmw2-2.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Overwatch 2",
+        "description": "Team-based multiplayer FPS with heroes.",
+        "price": 39.99,
+        "rating": 4.3,
+        "stock": 30,
+        "category": "FPS",
+        "thumbnail": "https://example.com/overwatch2-thumb.jpg",
+        "images": [
+            "https://example.com/overwatch2-1.jpg",
+            "https://example.com/overwatch2-2.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "League of Legends",
+        "description": "Popular MOBA with diverse champions.",
+        "price": 0.00,
+        "rating": 4.5,
+        "stock": 100,
+        "category": "MOBA",
+        "thumbnail": "https://example.com/lol-thumb.jpg",
+        "images": [
+            "https://example.com/lol1.jpg",
+            "https://example.com/lol2.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Valorant",
+        "description": "Tactical FPS with unique abilities.",
+        "price": 0.00,
+        "rating": 4.6,
+        "stock": 100,
+        "category": "FPS",
+        "thumbnail": "https://example.com/valorant-thumb.jpg",
+        "images": [
+            "https://example.com/valorant1.jpg",
+            "https://example.com/valorant2.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Apex Legends",
+        "description": "Battle royale with heroes and fast gameplay.",
+        "price": 0.00,
+        "rating": 4.4,
+        "stock": 100,
+        "category": "Battle Royale",
+        "thumbnail": "https://example.com/apex-thumb.jpg",
+        "images": [
+            "https://example.com/apex1.jpg",
+            "https://example.com/apex2.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Elden Ring",
+        "description": "Dark fantasy action RPG.",
+        "price": 59.99,
+        "rating": 4.9,
+        "stock": 20,
+        "category": "RPG",
+        "thumbnail": "https://example.com/eldenring-thumb.jpg",
+        "images": [
+            "https://example.com/eldenring1.jpg",
+            "https://example.com/eldenring2.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Hollow Knight",
+        "description": "Challenging Metroidvania with beautiful art.",
+        "price": 14.99,
+        "rating": 4.8,
+        "stock": 40,
+        "category": "Metroidvania",
+        "thumbnail": "https://example.com/hollowknight-thumb.jpg",
+        "images": [
+            "https://example.com/hollowknight1.jpg",
+            "https://example.com/hollowknight2.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Stardew Valley",
+        "description": "Relaxing farming and life simulation game.",
+        "price": 14.99,
+        "rating": 4.9,
+        "stock": 35,
+        "category": "Simulation",
+        "thumbnail": "https://example.com/stardewvalley-thumb.jpg",
+        "images": [
+            "https://example.com/stardewvalley1.jpg",
+            "https://example.com/stardewvalley2.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Terraria",
+        "description": "Action-adventure sandbox game.",
+        "price": 9.99,
+        "rating": 4.7,
+        "stock": 50,
+        "category": "Sandbox",
+        "thumbnail": "https://example.com/terraria-thumb.jpg",
+        "images": [
+            "https://example.com/terraria1.jpg",
+            "https://example.com/terraria2.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Among Us",
+        "description": "Social deduction multiplayer game.",
+        "price": 4.99,
+        "rating": 4.4,
+        "stock": 100,
+        "category": "Party",
+        "thumbnail": "https://example.com/amongus-thumb.jpg",
+        "images": [
+            "https://example.com/amongus1.jpg",
+            "https://example.com/amongus2.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Dark Souls III",
+        "description": "Challenging dark fantasy action RPG.",
+        "price": 49.99,
+        "rating": 4.8,
+        "stock": 20,
+        "category": "RPG",
+        "thumbnail": "https://example.com/darksouls3-thumb.jpg",
+        "images": [
+            "https://example.com/darksouls3-1.jpg",
+            "https://example.com/darksouls3-2.jpg"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Hades",
+        "description": "Roguelike dungeon crawler with Greek mythology.",
+        "price": 24.99,
+        "rating": 4.9,
+        "stock": 25,
+        "category": "Roguelike",
+        "thumbnail": "https://example.com/hades-thumb.jpg",
+        "images": [
+            "https://example.com/hades1.jpg",
+            "https://example.com/hades2.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Fall Guys",
+        "description": "Colorful battle royale party game.",
+        "price": 19.99,
+        "rating": 4.2,
+        "stock": 40,
+        "category": "Party",
+        "thumbnail": "https://example.com/fallguys-thumb.jpg",
+        "images": [
+            "https://example.com/fallguys1.jpg",
+            "https://example.com/fallguys2.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "No Man's Sky",
+        "description": "Procedurally generated space exploration game.",
+        "price": 59.99,
+        "rating": 4.5,
+        "stock": 15,
+        "category": "Exploration",
+        "thumbnail": "https://example.com/nomanssky-thumb.jpg",
+        "images": [
+            "https://example.com/nomanssky1.jpg",
+            "https://example.com/nomanssky2.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Portal 2",
+        "description": "First-person puzzle-platform game.",
+        "price": 9.99,
+        "rating": 4.9,
+        "stock": 30,
+        "category": "Puzzle",
+        "thumbnail": "https://example.com/portal2-thumb.jpg",
+        "images": [
+            "https://example.com/portal2-1.jpg",
+            "https://example.com/portal2-2.jpg"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Cuphead",
+        "description": "Challenging platformer with a 1930s cartoon style.",
+        "price": 19.99,
+        "rating": 4.8,
+        "stock": 30,
+        "category": "Platformer",
+        "thumbnail": "https://example.com/cuphead-thumb.jpg",
+        "images": [
+            "https://example.com/cuphead1.jpg",
+            "https://example.com/cuphead2.jpg"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "DOOM Eternal",
+        "description": "Fast-paced demon-slaying FPS.",
+        "price": 59.99,
+        "rating": 4.7,
+        "stock": 20,
+        "category": "FPS",
+        "thumbnail": "https://example.com/doometernal-thumb.jpg",
+        "images": [
+            "https://example.com/doometernal1.jpg",
+            "https://example.com/doometernal2.jpg"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Celeste",
+        "description": "Beautiful and challenging indie platformer.",
+        "price": 19.99,
+        "rating": 4.9,
+        "stock": 25,
+        "category": "Platformer",
+        "thumbnail": "https://example.com/celeste-thumb.jpg",
+        "images": [
+            "https://example.com/celeste1.jpg",
+            "https://example.com/celeste2.jpg"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Subnautica",
+        "description": "Survival game set in an underwater world.",
+        "price": 29.99,
+        "rating": 4.6,
+        "stock": 15,
+        "category": "Survival",
+        "thumbnail": "https://example.com/subnautica-thumb.jpg",
+        "images": [
+            "https://example.com/subnautica1.jpg",
+            "https://example.com/subnautica2.jpg"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Dead Cells",
+        "description": "Roguelike-Metroidvania with fast-paced combat.",
+        "price": 24.99,
+        "rating": 4.8,
+        "stock": 20,
+        "category": "Roguelike",
+        "thumbnail": "https://example.com/deadcells-thumb.jpg",
+        "images": [
+            "https://example.com/deadcells1.jpg",
+            "https://example.com/deadcells2.jpg"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Factorio",
+        "description": "Addictive factory-building and resource management game.",
+        "price": 29.99,
+        "rating": 4.7,
+        "stock": 30,
+        "category": "Simulation",
+        "thumbnail": "https://example.com/factorio-thumb.jpg",
+        "images": [
+            "https://example.com/factorio1.jpg",
+            "https://example.com/factorio2.jpg"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Half-Life: Alyx",
+        "description": "VR first-person shooter with incredible immersion.",
+        "price": 59.99,
+        "rating": 4.9,
+        "stock": 10,
+        "category": "VR",
+        "thumbnail": "https://example.com/halflifealyx-thumb.jpg",
+        "images": [
+            "https://example.com/halflifealyx1.jpg",
+            "https://example.com/halflifealyx2.jpg"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "The Sims 4",
+        "description": "Life simulation game with endless possibilities.",
+        "price": 39.99,
+        "rating": 4.4,
+        "stock": 50,
+        "category": "Simulation",
+        "thumbnail": "https://example.com/thesims4-thumb.jpg",
+        "images": [
+            "https://example.com/thesims4-1.jpg",
+            "https://example.com/thesims4-2.jpg"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Slay the Spire",
+        "description": "Deck-building roguelike with strategic depth.",
+        "price": 24.99,
+        "rating": 4.8,
+        "stock": 25,
+        "category": "Roguelike",
+        "thumbnail": "https://example.com/slaythespire-thumb.jpg",
+        "images": [
+            "https://example.com/slaythespire1.jpg",
+            "https://example.com/slaythespire2.jpg"
+        ]
+    }
+]
