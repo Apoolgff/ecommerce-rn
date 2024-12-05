@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, Button, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, Pressable } from 'react-native';
 
 const ProductCard = ({ product, onViewDetails }) => {
   return (
@@ -7,7 +7,15 @@ const ProductCard = ({ product, onViewDetails }) => {
       <Image source={{ uri: product.thumbnail }} style={styles.image} />
       <Text style={styles.title}>{product.name}</Text>
       <Text style={styles.price}>${product.price.toFixed(2)}</Text>
-      <Button title="View Details" onPress={() => onViewDetails(product)} />
+      <Pressable
+        onPress={() => onViewDetails(product)}
+        style={({ pressed }) => [
+          styles.button,
+          pressed && styles.buttonPressed,
+        ]}
+      >
+        <Text style={styles.buttonText}>View Details</Text>
+      </Pressable>
     </View>
   );
 };
@@ -38,6 +46,20 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#888',
     marginBottom: 10,
+  },
+  button: {
+    backgroundColor: '#007BFF',
+    paddingVertical: 10,
+    borderRadius: 5,
+    alignItems: 'center',
+  },
+  buttonPressed: {
+    backgroundColor: '#0056b3',
+  },
+  buttonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });
 
